@@ -1,5 +1,5 @@
 Feature: Login Functionality of Wikipedia
-         Add Description Here
+         Add Description goes from Here
 
   Background: To Open Webpage
     Given   User open the wikipedia application
@@ -19,7 +19,7 @@ Feature: Login Functionality of Wikipedia
     Then    User should not be able to login and gives error message
 
  @Smoke
-  Scenario Outline: Validate User is not able to login with multiple data
+  Scenario Outline: Validate User is not able to login with multiple data with example
     When    User enters username as "<username>"
     And     User enters password as "<password>"
     And     User clicks on login button
@@ -29,6 +29,5 @@ Feature: Login Functionality of Wikipedia
     |username|password |
     | dg     |  dgggg  |
     | Mike   |  Mike12 |
-    | Check  |  Check12|
 
 
